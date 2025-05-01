@@ -9,7 +9,7 @@ const Card = ({data}) => {
       
 return (
     <div className='cardContainer'>
-    {data.map((curItem,index)=>{
+     {data.map((curItem,index)=>{
         if(!curItem.urlToImage){
             return null
         }else{
@@ -30,4 +30,4 @@ return (
    )
 }
  
- export default Card;
+ export default Card
